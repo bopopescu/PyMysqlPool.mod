@@ -19,6 +19,6 @@ loggingerr = currentPath + '/../log/%s' % (loggErrorFile,)
 # ===============================================
 if __name__ == '__main__':
     logging.info('main starts...')
-    print  loggingerr
+    print (loggingerr)
     logging.info('main stop')
     sys.exit(0)

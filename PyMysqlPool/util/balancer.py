@@ -35,12 +35,12 @@ class RepeatedTimer(object):
 
 
 def hello(name):
-    print "Hello %s!" % name
+    print( "Hello %s!" % name)
 
 
 if __name__ == '__main__':
 
-    print "starting..."
+    print ("starting...")
     rt = RepeatedTimer(1, hello, "World")  # it auto-starts, no need of rt.start()
     try:
         while (True):
